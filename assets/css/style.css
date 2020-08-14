@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family:'Courier New', Courier, monospace;
+    color: #ff4da6;
+}
+.second-tittle {
+    font-size: 35px;
+    color: #ff4da6;
+    text-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+/*Header section*/
+header {
+    padding: 25px 40px ;
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: #ff4da6;
+    text-shadow: rgba(0,0,0,0.25);
+}
+header a {
+    text-decoration: none;
+    color: #ff4da6;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 20px 35px;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(88,23,43);
+    text-shadow: 0 0 15px rgba(0,0,0,0.25);
+    }
+/*Hero style start*/
+
+.hero {
+    background-image:url(../images/Pink\ neon.jpg);
+    background-size: cover;
+    padding: 100px 50px;
+    background-attachment: fixed;
+    background position: 80%;
+    }
+
+.my-name {
+    text-align: center;
+    font-size: 37px;
+    color:white;
+    text-shadow: 0 0 25px rgba(0,0,0,0.50);
+    }
+.my-info {
+    margin: 30px 40px;
+    padding-bottom: 40px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-bio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 15px;
+    margin:10px 10px;
+}
+.my-bio h2 {
+    flex: 1 30%;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.my-bio p {
+    flex: 1 70%;
+    text-align: justify;
+    padding-left: 20px;
+}
